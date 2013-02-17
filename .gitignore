@@ -2,11 +2,11 @@
 wp-config.php
 wp-content/blogs.dir/
 wp-content/upgrade/
-wp-content/backup-db/
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
-*.log
 wp-content/cache/
-wp-content/backups/
-wp-content/backup/
+wp-content/backup*
+wp-content/*log*
 sitemap.*
+tmp/
+*.log
