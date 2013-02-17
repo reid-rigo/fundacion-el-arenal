@@ -37,7 +37,7 @@ add_action( 'wp_enqueue_scripts', 'simplecatch_scripts_method' );
  * @action wp_enqueue_scripts
  */
 function simplecatch_load_google_fonts() {
-    wp_register_style('google-fonts', 'http://fonts.googleapis.com/css?family=Lobster');
+    wp_register_style('google-fonts', 'http://fonts.googleapis.com/css?family=Permanent+Marker');
 	wp_enqueue_style( 'google-fonts');
 }
 add_action('wp_enqueue_scripts', 'simplecatch_load_google_fonts');

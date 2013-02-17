@@ -37,16 +37,6 @@
 				endif;
 			?>
 
-        	<div class="social-search">
-				<?php
-                    // simplecatch_headersocialnetworks displays social links given from theme option in header 
-                    if ( function_exists( 'simplecatch_headersocialnetworks' ) ) :
-                        simplecatch_headersocialnetworks(); 
-                    endif;
-                    // get search form
-                    get_search_form();
-                ?>      
-        	</div><!-- .social-search -->
     		<div class="row-end"></div>
             <div id="mainmenu">
             	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
