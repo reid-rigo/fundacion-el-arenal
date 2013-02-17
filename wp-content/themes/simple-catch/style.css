@@ -446,6 +446,13 @@ h2#site-description {
 	padding:8px 0 0 0;
 }
 
+#qtranslate-chooser {
+	float: right;
+	margin-top: 20px;
+	list-style: none;
+	font-size: 0.9em;
+}
+
 /* Social-Search */
 #header .social-search {
 	float: right;
