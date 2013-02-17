@@ -453,6 +453,10 @@ h2#site-description {
 	font-size: 0.9em;
 }
 
+.qtrans_flag_de {
+	background: url(http://localhost/~reid/wp-content/plugins/qtranslate/flags/de.png) no-repeat scroll 0 0 transparent !important;
+}
+
 /* Social-Search */
 #header .social-search {
 	float: right;
