@@ -39,13 +39,13 @@
 
             <ul id="qtranslate-chooser" class="qtrans_language_chooser col1">
                 <li>
-                    <a title="English" class="qtrans_flag_en qtrans_flag_and_text" href="?lang=en">
-                        <span>English</span>
+                    <a title="Español" class="qtrans_flag_es qtrans_flag_and_text" href="?lang=es">
+                        <span>Español</span>
                     </a>
                 </li>
                 <li>
-                    <a title="Español" class="qtrans_flag_es qtrans_flag_and_text" href="?lang=es">
-                        <span>Español</span>
+                    <a title="English" class="qtrans_flag_en qtrans_flag_and_text" href="?lang=en">
+                        <span>English</span>
                     </a>
                 </li>
                 <li>

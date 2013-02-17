@@ -8,17 +8,10 @@
  */
 ?>
 	<div id="footer">
-    	<div class="layout-978">
-			<?php //Displaying footer logo ?>
-            <div class="col7 copyright no-margin-left">
-				<?php if( function_exists( 'simplecatch_footerlogo' ) ) :
-						simplecatch_footerlogo(); 
-					  endif;	
-				?><?php _e( 'Copyright', 'simplecatch' ); ?> &copy; <?php echo date("Y"); ?> <span><?php bloginfo('name')?></span>. <?php _e( 'All Rights Reserved.', 'simplecatch' ); ?>
-            </div><!-- .col7 -->
-            
-           <?php do_action( 'simplecatch_credits' ); ?>
-            
+    <div class="layout-978">
+    	<div class="col7 copyright no-margin-left">
+				 © 2013 Fundación El Arenal
+			</div>
 		</div><!-- .layout-978 -->
 	</div><!-- #footer -->      
 <?php wp_footer(); ?>
