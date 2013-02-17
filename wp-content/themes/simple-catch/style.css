@@ -1562,33 +1562,17 @@ ul.default-wp-page li.next a {
 -------------------------------------------------------------- */
 #footer {
 	border-top:6px solid #ccc;
-	height:60px;
-	color:#666;
+	height:90px;
+	padding-top: 10px;
+	color:#888;
 	font-size:12px;
-	padding-top:30px;
 }
-#footer span {
-	color:#999;
-	font-style:italic;
+#footer .copyright {
+	float: left;
 }
-#footer a {
-	font-style:italic;
-	color:#999;
-	line-height:24px;
-}
-#footer a:hover {
-	font-style:italic;
-	color:#777;
-}
-#footer .copyright img {
-	max-width:30px;
-	height:auto;
-	overflow:hidden;
-	float:left;
-	margin:0 20px 0 0;
-}
-#footer .powered-by {
-	text-align:right;
+#footer address {
+	float: right;
+	line-height: 130%;
 }
 
 /* =Print styling
@@ -1663,4 +1647,7 @@ img#wpstats {
 .home .sticky {
 	border: none;
 }
+
+.vcard {
+	margin-top: -20px;
 }
