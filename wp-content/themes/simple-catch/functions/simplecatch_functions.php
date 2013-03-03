@@ -37,7 +37,7 @@ add_action( 'wp_enqueue_scripts', 'simplecatch_scripts_method' );
  * @action wp_enqueue_scripts
  */
 function simplecatch_load_google_fonts() {
-    wp_register_style('google-fonts', 'http://fonts.googleapis.com/css?family=Permanent+Marker');
+    wp_register_style('google-fonts', 'http://fonts.googleapis.com/css?family=Lobster');
 	wp_enqueue_style( 'google-fonts');
 }
 add_action('wp_enqueue_scripts', 'simplecatch_load_google_fonts');
@@ -805,7 +805,8 @@ function simplecatch_loop() {
 	if( is_page() ): ?>
     
 		<div <?php post_class(); ?> >
-      <?php the_content(); 
+			<h2 class="entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+       		<?php the_content(); 
 			// copy this <!--nextpage--> and paste at the post content where you want to break the page
 			 wp_link_pages(array( 
 					'before'			=> '<div class="pagination">Pages: ',

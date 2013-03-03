@@ -37,24 +37,16 @@
 				endif;
 			?>
 
-            <ul id="qtranslate-chooser" class="qtrans_language_chooser col1">
-                <li>
-                    <a title="Español" class="qtrans_flag_es qtrans_flag_and_text" href="?lang=es">
-                        <span>Español</span>
-                    </a>
-                </li>
-                <li>
-                    <a title="English" class="qtrans_flag_en qtrans_flag_and_text" href="?lang=en">
-                        <span>English</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="Deutsch" class="qtrans_flag_de qtrans_flag_and_text" href="http://www.projekt-cuenca.de">
-                        <span>Deutsch</span>
-                    </a>
-                </li>
-            </ul>
-            
+        	<div class="social-search">
+				<?php
+                    // simplecatch_headersocialnetworks displays social links given from theme option in header 
+                    if ( function_exists( 'simplecatch_headersocialnetworks' ) ) :
+                        simplecatch_headersocialnetworks(); 
+                    endif;
+                    // get search form
+                    get_search_form();
+                ?>      
+        	</div><!-- .social-search -->
     		<div class="row-end"></div>
             <div id="mainmenu">
             	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
