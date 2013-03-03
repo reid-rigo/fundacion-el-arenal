@@ -3,8 +3,8 @@ Theme Name: Simple Catch
 Theme URI: http://catchthemes.com/themes/simple-catch
 Author: Catch Themes Team
 Author URI: http://catchthemes.com
-Description: Simple Catch is a Simple and Clean WordPress Theme by Catch Themes. Easy Customize through Theme Options and Custom Widgets. Features: Custom Menu, Custom Widgets, Three Custom Layouts, Featured Slider, Theme Options (Header Logo, Footer Logo, Fav Icon, Social Icons, Custom CSS Styles, Webmaster Tools)  and Support for popular plugins (Breadcrumb NavXT, Contact Form 7, WP-PageNavi, WP Page Numbers). It is based on popular 978 Grid System CSS Framework. Multilingual Ready (WPML) and also currently translated in Polish, Russian, Finnish, French, Dutch, Greek, Croatian and Chinese. Free Support Forum at http://catchthemes.com/support-forum/forum/simple-catch-public/
-Version: 2.2
+Description: Simple Catch is a Simple and Clean WordPress Theme by Catch Themes. Easy Customize through Theme Options and Custom Widgets. Features: Custom Menu, Custom Widgets, Three Custom Layouts, Featured Slider, Theme Options (Header Logo, Footer Logo, Fav Icon, Social Icons, Custom CSS Styles, Webmaster Tools)  and Support for popular plugins (Breadcrumb NavXT, Contact Form 7, WP-PageNavi, WP Page Numbers). It is based on popular 978 Grid System CSS Framework. Multilingual Ready (WPML) and also currently translated in Polish, Russian, Finnish, French, Dutch and Greek. Free Support Forum at http://catchthemes.com/support-forum/forum/simple-catch-public/
+Version: 2.0.1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, gray, silver, white, light, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, custom-menu, featured-images, full-width-template, theme-options, threaded-comments, translation-ready
@@ -430,7 +430,7 @@ a.readmore:hover {
 }
 h1#site-title {
 	font-size: 45px;
-	font-family: 'Lobster';
+	font-family: 'Permanent Marker', cursive;
 	font-weight:normal;
 	padding-bottom:0px;
 }
@@ -444,6 +444,17 @@ h2#site-description {
 	font:14px Arial, Helvetica, sans-serif;
 	color:#666;
 	padding:8px 0 0 0;
+}
+
+#qtranslate-chooser {
+	float: right;
+	margin-top: 20px;
+	list-style: none;
+	font-size: 0.9em;
+}
+
+.qtrans_flag_de {
+	background: url(http://localhost/~reid/wp-content/plugins/qtranslate/flags/de.png) no-repeat scroll 0 0 transparent !important;
 }
 
 /* Social-Search */
@@ -1551,33 +1562,17 @@ ul.default-wp-page li.next a {
 -------------------------------------------------------------- */
 #footer {
 	border-top:6px solid #ccc;
-	height:60px;
-	color:#666;
+	height:90px;
+	padding-top: 10px;
+	color:#888;
 	font-size:12px;
-	padding-top:30px;
 }
-#footer span {
-	color:#999;
-	font-style:italic;
+#footer .copyright {
+	float: left;
 }
-#footer a {
-	font-style:italic;
-	color:#999;
-	line-height:24px;
-}
-#footer a:hover {
-	font-style:italic;
-	color:#777;
-}
-#footer .copyright img {
-	max-width:30px;
-	height:auto;
-	overflow:hidden;
-	float:left;
-	margin:0 20px 0 0;
-}
-#footer .powered-by {
-	text-align:right;
+#footer address {
+	float: right;
+	line-height: 130%;
 }
 
 /* =Print styling
@@ -1652,4 +1647,7 @@ img#wpstats {
 .home .sticky {
 	border: none;
 }
+
+.vcard {
+	margin-top: -20px;
 }
