@@ -1,5 +1,6 @@
 .htaccess
 wp-config.php
+wp-content/plugins
 wp-content/blogs.dir/
 wp-content/upgrade/
 wp-content/advanced-cache.php
